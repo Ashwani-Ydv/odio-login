@@ -16,7 +16,9 @@
   
   .welcome-section {
     flex: 1;
-    background: linear-gradient(to bottom right, #48a9fe, #0048fe);
+    /* background: #11B9FE;
+     */
+     background: linear-gradient(90deg, rgb(12, 143, 194)0%, rgb(0, 145, 255) 100%);
     color: white;
     display: flex;
     flex-direction: column;
@@ -24,6 +26,20 @@
     align-items: center;
     text-align: center;
     padding: 2rem;
+    position: relative;
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+    height: 40px; /* Adjust the size as needed */
   }
   
   .welcome-section h1 {
@@ -50,6 +66,8 @@
   .login-section h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: #0048fe;
+    font-weight: bold;
   }
   
   .login-section form {
@@ -65,11 +83,6 @@
     border: 1px solid #ddd;
     border-radius: 25px;
     padding-left: 1.5rem;
-  }
-
-  .login{
-    color: #11B9FE;
-    font-size: bold;
   }
   
   .options {

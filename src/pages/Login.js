@@ -1,13 +1,17 @@
 import React from 'react';
 import odio_logo from '../assets/odio_logo_blue.png';
+import favi from '../assets/favicon.ico';
 import './Login.css';
 
 function Login() {
     return (
         <div className="login-container">
             <div className="welcome-section">
-                <img src={odio_logo} alt="odio" />
-                <p style={{ marginTop: '1rem' }}>Nice to see you again</p>
+                <div className="logo-container">
+                    <img src={favi} alt="favicon" />
+                    <img src={odio_logo} alt="company logo" />
+                </div>
+                <p>Nice to see you again</p>
                 <h1>Welcome Back</h1>
                 <p>
                     Transform Customer Interactions with our AI-Driven Conversational Intelligence.
@@ -23,7 +27,7 @@ function Login() {
                             <input type="checkbox" />
                             Keep me signed in
                         </label>
-                        <a href="/#" style={{ color: '#11B9FE' }} >Already a member?</a>
+                        <a href="/#" style={{ color: '#0048fe' }}>Already a member?</a>
                     </div>
                     <button type="submit">Subscribe</button>
                 </form>

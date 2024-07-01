@@ -14,11 +14,25 @@
     height: 100vh;
   }
   
+  /* .welcome-section {
+    flex: 1;
+    background-image: url('../assets/bg.png');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+  } */
+
   .welcome-section {
     flex: 1;
-    /* background: #11B9FE;
-     */
-     background: linear-gradient(90deg, rgb(12, 143, 194)0%, rgb(0, 145, 255) 100%);
+    background-image: url('../assets/bg.png');
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
     color: white;
     display: flex;
     flex-direction: column;

@@ -27,7 +27,6 @@ function Login() {
                             <input type="checkbox" />
                             Keep me signed in
                         </label>
-                        <a href="/#" style={{ color: '#0048fe' }}>Already a member?</a>
                     </div>
                     <button type="submit">Subscribe</button>
                 </form>
